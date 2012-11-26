@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "paladin"
   gem.homepage = "http://github.com/kmohr/paladin"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "File Checker for Builds"  
+  gem.description = "Checks if files exist."
   gem.email = "kmohr@fulcrum.net"
   gem.authors = ["Kelli Mohr"]
   # dependencies defined in Gemfile
