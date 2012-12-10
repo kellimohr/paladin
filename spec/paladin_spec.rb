@@ -3,7 +3,7 @@ require File.expand_path(File.dirname(__FILE__) + '/spec_helper')
 describe "Paladin" do
 
   before :each do
-    @file = Paladin.new("test.txt")
+    @file = Paladin.new
 	end
 
   it "should open the file and verify a file path exists" do
