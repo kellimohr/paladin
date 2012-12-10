@@ -5,7 +5,7 @@ class Paladin
 	#Paladin takes a default file file_spec.txt in the same directory
 	def self.load_file
 		@file_name = "file_spec.txt"
-		@counter = 1
+		@counter = 0
 		@missed = 0
 
 		@log = File.open("paladin.log", 'w')
