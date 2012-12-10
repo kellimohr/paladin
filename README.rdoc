@@ -1,6 +1,6 @@
 = paladin
 
-Description goes here.
+Paladin for file verification.
 
 == Contributing to paladin
  
