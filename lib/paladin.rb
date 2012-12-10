@@ -1,5 +1,8 @@
+# Paladin class verifies if files exist and writes missing files to
+# the paladin.log file.
 class Paladin
 
+	#Paladin takes a file with file names to be verified
 	def initialize(file_name)
 		@file_name = file_name
 		@counter = 1
