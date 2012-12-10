@@ -18,7 +18,7 @@ describe "Paladin" do
     File.exists?("@file.missing_files") == true
   end
 
-  it "should print paladin.log" do
-    @file.print_log.should eq ""
+  it "should open and print paladin.log" do
+    @file.print_log.should be_nil
   end
 end
