@@ -12,7 +12,7 @@ class Paladin
 	end
 
 	#Write missing files to paladin.log
-	def verify_files
+	def self.verify_files
 
 		@log.write("Missing Files: \n")
 		File.open(@file_name).each do |value| 
@@ -28,7 +28,7 @@ class Paladin
 	end
 
 	#Displays the contents of paladin.log
-	def print_log
+	def self.print_log
 		File.open("paladin.log") do |f|
 			puts f.gets
 		end
