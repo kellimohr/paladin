@@ -2,7 +2,7 @@
 # the paladin.log file.
 class Paladin
 
-	#Paladin takes a file with file names to be verified
+	#Paladin takes a default file file_spec.txt in the same directory
 	def self.load_file
 		@file_name = "file_spec.txt"
 		@counter = 1
