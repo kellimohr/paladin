@@ -3,8 +3,8 @@
 class Paladin
 
 	#Paladin takes a file with file names to be verified
-	def initialize(file_name)
-		@file_name = file_name
+	def initialize
+		@file_name = "file_spec.txt"
 		@counter = 1
 		@missed = 0
 

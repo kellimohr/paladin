@@ -1,4 +1,0 @@
-spec_helper.rb
-kelli.txt
-paladin_spec.rb
-/Users/kellimohr/Gems/paladin/README.rdoc
