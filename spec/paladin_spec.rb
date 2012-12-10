@@ -11,7 +11,7 @@ describe "Paladin" do
 	end
 
 	it "should accept and read a file" do
-    	@file.verify_files
+    	@verify_files.should be_nil
   end
 
   it "should create paladin.log" do
