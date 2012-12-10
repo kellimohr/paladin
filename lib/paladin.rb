@@ -26,11 +26,4 @@ class Paladin
 		end
 		@log.write("Total Files Verified: #{@counter}\n Total Files Missing: #{@missed}\n")
 	end
-
-	#Displays the contents of paladin.log
-	def self.print_log
-		File.open("paladin.log") do |f|
-			puts f.gets
-		end
-	end
 end
