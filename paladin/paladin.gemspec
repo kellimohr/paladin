@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Paladin::VERSION
   gem.authors       = ["Kelli Mohr"]
   gem.email         = ["kmohr@fulcrum.net"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = "Paladin reads a file with a list of files and verifies if the files exist"
+  gem.summary       = "File verification Gem"
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
